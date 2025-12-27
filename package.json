@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "First react project",
+  "default": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build-prod": "npx parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaiknizamuddin/react-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaiknizamuddin/react-learning/issues"
+  },
+  "homepage": "https://github.com/shaiknizamuddin/react-learning#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserlist": [
+    "last 2 Chrome version"
+  ]
+}

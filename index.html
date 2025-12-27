@@ -4,40 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 
 <body>
     <div id="root"></div>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    <script>
-        /**
-         *  <div id="parent">
-         *       <div id="child1">
-         *          <h1 id="heading1">This is heading</h1>
-         *          <h2 id="heading2">This is a subheading</h2>
-         *       </div>
-         *       <div id="child2">
-         *          <h3 id="heading3">This is heading3</h3>
-         *          <h4 id="heading4">This is heading4</h4>
-         *        </div>
-         *  </div>
-         * */
-            const element = React.createElement('div', {id:'parent'},[
-                React.createElement('div',{id:'child1'},[
-                    React.createElement('h1',{id:'heading1'},'This is heading'),
-                    React.createElement('h2',{id:'heading2'},'This is a subheading')
-                ]),
-                React.createElement('div',{id:'child2'},[
-                    React.createElement('h3',{id:'heading3'},'This is heading3'),
-                    React.createElement('h4',{id:'heading4'},'This is heading4')
-                ])
-            ]);
-            const root = ReactDOM.createRoot(document.getElementById('root'));
-            root.render(element);
-    </script>
+    <script type="module" src="./App.js"></script>
 </body>
 
 </html>
